@@ -13,8 +13,7 @@ type User struct {
 	Phone    string   `json:"-"`
 }
 // вам надо написать более быструю оптимальную этой функции
-//уже который раз читаю, смотрю но никак не могу понять где что
-//(что именно вообще ищет Search?), и что нужно делать, no idea
+//I can make only pprof, вроде regex занимает больше времени
 
 func FastSearch(out io.Writer) {
 	SlowSearch(out)
